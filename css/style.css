@@ -7,10 +7,140 @@ body {
   text-transform: uppercase;
 }
 
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+  width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+  /* убрать */
+  outline: 2px solid red;
+}
+
+.main-header {
+  /* убрать */
+  outline: 2px solid green;
+}
+
+.mini-logo {
+  float: left;
+  width: 140px;
+  /* убрать */
+  outline: 2px solid yellow;
+}
+
+.main-nav {
+  float: left;
+  width: 600px;
+  /* убрать */
+  outline: 2px solid yellow;
+}
+
+.user-block {
+  float: right;
+  width: 140px;
+  /* убрать */
+  outline: 2px solid yellow;
+}
+
+.catalog {
+  /* убрать */
+  outline: 2px solid green;
+}
+
 .page-title {
+  width: 940px;
+  font-size: 30px;
+  line-height: 42px;
+  /* убрать */
+  outline: 2px solid yellow;
+}
+
+.breadcrumbs {
+  width: 940px;
+  margin-bottom: 50px;
+  /* убрать */
+  outline: 2px solid yellow;
+}
+
+.filter {
+  float: left;
+  width: 220px;
+  /* убрать */
+  outline: 2px solid yellow;
+}
+
+.catalog-items {
+  float: right;
+  width: 700px;
+  margin-bottom: 30px;
+  /* убрать */
+  outline: 2px solid yellow;
+}
+
+.pagination {
+  clear: both;
+  width: 700px;
+  margin-left: 240px;
+  /* убрать */
+  outline: 2px solid yellow;
+}
+
+/* страница товара */
+.item-photos {
+  float: left;
+  width: 480px;
+  margin-bottom: 45px;
+  /* убрать */
+  outline: 2px solid yellow;
+}
+
+.item-info {
+  float: right;
+  width: 390px;
+  /* убрать */
+  outline: 2px solid yellow;
+}
+
+.main-footer {
+  padding-top: 60px;
+  padding-bottom: 40px;
+  /* убрать */
+  outline: 2px solid green;
+}
+
+.footer-contacts {
+  float: left;
+  width: 320px;
+  margin-right: 60px;
+  /* убрать */
+  outline: 2px solid yellow;
+}
+
+.footer-social {
+  float: left;
+  width: 220px;
+  /* убрать */
+  outline: 2px solid yellow;
+}
+
+.footer-copyright {
+  float: right;
+  width: 160px;
+  /* убрать */
+  outline: 2px solid yellow;
+}
+
+/*.
+page-title {
   font-size: 30px;
   line-height: 42px;
 }
+*/
 
 .components-title {
   font-size: 24px;
